@@ -2,9 +2,9 @@
 
 ## Install
 ```bash:#
-git clone https://github.com/yuki9431/myLinebot.git
+git clone https://github.com/yuki9431/openVSCode
 
-cp -a vscode /user/local/bin/
+ln -s vscode.sh /usr/local/bin/vscode
 ```
 
 ## How to Use
