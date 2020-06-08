@@ -1,9 +1,7 @@
 #!/bin/bash
-#
-# create at 2019/4/22
-# vscodeでファイルを開く 
-# vscode <filename>
-#
 
-[ ! -e ${@:1} ] && touch ${@:1}
+for arg; do
+    [ ! -e ${arg} ] && touch ${arg}
+done
+
 open ${@:1} -a "Visual Studio Code"

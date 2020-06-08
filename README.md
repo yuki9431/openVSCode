@@ -4,7 +4,9 @@
 ```bash:#
 git clone https://github.com/yuki9431/openVSCode
 
-ln -s vscode.sh /usr/local/bin/vscode
+cd openVSCode/
+
+ln -s $(pwd)/vscode.sh /usr/local/bin/vscode
 ```
 
 ## How to Use
